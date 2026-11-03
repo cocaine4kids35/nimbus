@@ -1,0 +1,38 @@
+
+    <main id="landing">
+      <div class="glow"></div>
+
+      <header class="brand">
+        <div class="mark">N</div>
+        <h1>Nimbus</h1>
+      </header>
+
+      <form id="go" autocomplete="off">
+        <input id="address" type="text" placeholder="Search or enter a URL" spellcheck="false">
+        <button type="submit" aria-label="Go">
+          <svg viewBox="0 0 24 24" width="20" height="20"><path fill="currentColor" d="M9.5 3a6.5 6.5 0 0 1 5.2 10.4l4.7 4.7-1.4 1.4-4.7-4.7A6.5 6.5 0 1 1 9.5 3Zm0 2a4.5 4.5 0 1 0 0 9 4.5 4.5 0 0 0 0-9Z"></path></svg>
+        </button>
+      </form>
+
+      <div class="chips">
+        <button data-url="https://www.youtube.com">YouTube</button>
+        <button data-url="https://discord.com/app">Discord</button>
+        <button data-url="https://neal.fun">Neal.fun</button>
+        <button data-url="https://krunker.io">Krunker</button>
+        <button data-url="https://coolmathgames.com">Coolmath</button>
+      </div>
+
+      <div class="actions">
+        <button id="cloaked" class="ghost">Open in cloaked tab</button>
+      </div>
+
+      <p class="hint"><kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>X</kbd> to bail · <kbd>/</kbd> to focus</p>
+      <p id="error"></p>
+    </main>
+
+    <div id="bar" hidden="">
+      <button id="home" title="Home">⌂</button>
+      <button id="reload" title="Reload">↻</button>
+      <span id="status"></span>
+    </div>
+  
